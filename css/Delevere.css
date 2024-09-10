@@ -1,0 +1,42 @@
+.containerr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.delivery-img {
+    width: 60%; 
+    height: 50%;   
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+.delivery-text {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+
+#countdown {
+    font-size: 2em; 
+    color: #333;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .delivery-img {
+        width: 50vw; 
+        height: auto; 
+        margin-bottom: 20px;
+    }
+}
+
+
